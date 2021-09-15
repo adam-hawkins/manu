@@ -69,10 +69,24 @@ include CMakeFiles/Manu.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Manu.dir/flags.make
 
+CMakeFiles/Manu.dir/src/main.c.o: CMakeFiles/Manu.dir/flags.make
+CMakeFiles/Manu.dir/src/main.c.o: src/main.c
+CMakeFiles/Manu.dir/src/main.c.o: CMakeFiles/Manu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Manu.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Manu.dir/src/main.c.o -MF CMakeFiles/Manu.dir/src/main.c.o.d -o CMakeFiles/Manu.dir/src/main.c.o -c /Users/adam/develop/manu/src/main.c
+
+CMakeFiles/Manu.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Manu.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/adam/develop/manu/src/main.c > CMakeFiles/Manu.dir/src/main.c.i
+
+CMakeFiles/Manu.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Manu.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/adam/develop/manu/src/main.c -o CMakeFiles/Manu.dir/src/main.c.s
+
 CMakeFiles/Manu.dir/src/c/c.c.o: CMakeFiles/Manu.dir/flags.make
 CMakeFiles/Manu.dir/src/c/c.c.o: src/c/c.c
 CMakeFiles/Manu.dir/src/c/c.c.o: CMakeFiles/Manu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Manu.dir/src/c/c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Manu.dir/src/c/c.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Manu.dir/src/c/c.c.o -MF CMakeFiles/Manu.dir/src/c/c.c.o.d -o CMakeFiles/Manu.dir/src/c/c.c.o -c /Users/adam/develop/manu/src/c/c.c
 
 CMakeFiles/Manu.dir/src/c/c.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/Manu.dir/src/c/c.c.s: cmake_force
 CMakeFiles/Manu.dir/src/go/go.c.o: CMakeFiles/Manu.dir/flags.make
 CMakeFiles/Manu.dir/src/go/go.c.o: src/go/go.c
 CMakeFiles/Manu.dir/src/go/go.c.o: CMakeFiles/Manu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Manu.dir/src/go/go.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Manu.dir/src/go/go.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Manu.dir/src/go/go.c.o -MF CMakeFiles/Manu.dir/src/go/go.c.o.d -o CMakeFiles/Manu.dir/src/go/go.c.o -c /Users/adam/develop/manu/src/go/go.c
 
 CMakeFiles/Manu.dir/src/go/go.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/Manu.dir/src/go/go.c.s: cmake_force
 CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o: CMakeFiles/Manu.dir/flags.make
 CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o: src/kotlin/kotlin.c
 CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o: CMakeFiles/Manu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o -MF CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o.d -o CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o -c /Users/adam/develop/manu/src/kotlin/kotlin.c
 
 CMakeFiles/Manu.dir/src/kotlin/kotlin.c.i: cmake_force
@@ -110,20 +124,6 @@ CMakeFiles/Manu.dir/src/kotlin/kotlin.c.i: cmake_force
 CMakeFiles/Manu.dir/src/kotlin/kotlin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Manu.dir/src/kotlin/kotlin.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/adam/develop/manu/src/kotlin/kotlin.c -o CMakeFiles/Manu.dir/src/kotlin/kotlin.c.s
-
-CMakeFiles/Manu.dir/src/main.c.o: CMakeFiles/Manu.dir/flags.make
-CMakeFiles/Manu.dir/src/main.c.o: src/main.c
-CMakeFiles/Manu.dir/src/main.c.o: CMakeFiles/Manu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adam/develop/manu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Manu.dir/src/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Manu.dir/src/main.c.o -MF CMakeFiles/Manu.dir/src/main.c.o.d -o CMakeFiles/Manu.dir/src/main.c.o -c /Users/adam/develop/manu/src/main.c
-
-CMakeFiles/Manu.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Manu.dir/src/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/adam/develop/manu/src/main.c > CMakeFiles/Manu.dir/src/main.c.i
-
-CMakeFiles/Manu.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Manu.dir/src/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/adam/develop/manu/src/main.c -o CMakeFiles/Manu.dir/src/main.c.s
 
 CMakeFiles/Manu.dir/src/python/python.c.o: CMakeFiles/Manu.dir/flags.make
 CMakeFiles/Manu.dir/src/python/python.c.o: src/python/python.c
@@ -141,19 +141,19 @@ CMakeFiles/Manu.dir/src/python/python.c.s: cmake_force
 
 # Object files for target Manu
 Manu_OBJECTS = \
+"CMakeFiles/Manu.dir/src/main.c.o" \
 "CMakeFiles/Manu.dir/src/c/c.c.o" \
 "CMakeFiles/Manu.dir/src/go/go.c.o" \
 "CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o" \
-"CMakeFiles/Manu.dir/src/main.c.o" \
 "CMakeFiles/Manu.dir/src/python/python.c.o"
 
 # External object files for target Manu
 Manu_EXTERNAL_OBJECTS =
 
+Manu: CMakeFiles/Manu.dir/src/main.c.o
 Manu: CMakeFiles/Manu.dir/src/c/c.c.o
 Manu: CMakeFiles/Manu.dir/src/go/go.c.o
 Manu: CMakeFiles/Manu.dir/src/kotlin/kotlin.c.o
-Manu: CMakeFiles/Manu.dir/src/main.c.o
 Manu: CMakeFiles/Manu.dir/src/python/python.c.o
 Manu: CMakeFiles/Manu.dir/build.make
 Manu: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libcurses.tbd
