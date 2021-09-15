@@ -1,9 +1,9 @@
 #include <ncurses.h>
-#include <c/c.h>
-#include <python/python.h>
-#include <kotlin/kotlin.h>
-#include <go/go.h>
 #include <stdio.h>
+#include "c/c.h"
+#include "python/python.h"
+#include "kotlin/kotlin.h"
+#include "go/go.h"
 
 #define ENTER 10
 
@@ -19,14 +19,14 @@ int menu_up(int i) {
 
 int main() {
   WINDOW *w;
-  char* list[5] = { "C/C++", "Go", "Python", "Kotlin" };
+  char* list[4] = { "C/C++", "Go", "Python", "Kotlin" };
   char item[7];
   int ch, i = 0;
   initscr(); // initialize Ncurses
   w = newwin( 10, 12, 1, 1 ); // create a new window
   box( w, 0, 0 ); // sets default borders for the window
   // now print all the menu items and highlight the first one
-  for( i=0; i<5; i++ ) {
+  for( i=0; i<4; i++ ) {
       if( i == 0 )
           wattron( w, A_STANDOUT ); // highlights the first item.
       else

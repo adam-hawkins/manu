@@ -1,0 +1,3 @@
+/Users/adam/develop/manu/CMakeFiles/rebuild_cache.dir
+/Users/adam/develop/manu/CMakeFiles/edit_cache.dir
+/Users/adam/develop/manu/CMakeFiles/Manu.dir

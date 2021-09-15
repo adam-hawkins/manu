@@ -1,0 +1,20 @@
+CC = gcc
+CFLAGS = -std=c99 -O3 -g -Wall -Wextra -Wpedantic -Wstrict-aliasing
+CFLAGS += -lncurses
+#CFLAGS += -I lib/
+SRC = src/main.c src/c/c.c src/go/go.c src/kotlin/kotlin.c src/python/python.c
+BIN = bin
+NAME = manu
+
+.PHONY: all clean
+
+all: build
+
+run: all
+	$(BIN)/$(NAME)
+
+build:
+	$(CC) -o $(BIN)/$(NAME) $(SRC) $(CFLAGS)
+
+clean:
+	rm -rf $(BIN)/*
